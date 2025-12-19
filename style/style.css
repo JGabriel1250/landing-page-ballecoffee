@@ -1,11 +1,126 @@
 @charset "UTF-8";
 
-body {
-    background-image: url(/praticando/image/fundoazul.jpg);
-    background-position: center;
-    background-attachment: fixed;
+@font-face {
+    font-family: 'poppins';
+    src: url(../font/Poppins-BoldItalic.ttf) format('opentype');
 }
 
-main {
-    background-image: url(/praticando/image/trabalhador.jpg);
+.ibm-plex-mono-light {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
 }
+
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-medium {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-mono-semibold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-mono-regular-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-mono-medium-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-mono-semibold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-mono-bold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+}
+
+.topo-do-site {
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.topo-do-site h1 {
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.topo-do-site p {
+    font-family: 'poppins', cursive;
+    color: #feec00;
+    font-weight: bold;
+}
+
+hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-copy {
+    max-width: 680px;
+    margin-left: 400px; 
+}
+
+.cor {
+    color: #feec00; 
+}
+
+.botao {
+    border: none;
+    background-image: linear-gradient(#00c3fa, #0060eb);
+    padding: 23px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.botao:hover {
+    background-image: linear-gradient(#3c3c3c, #010101);
+}
+
+
+
+
+
