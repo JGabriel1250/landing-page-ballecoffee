@@ -118,7 +118,7 @@ body {
   background: url(../img/eletricista.png) no-repeat center center;
   background-size: cover;
   height: 478px;
-  margin-bottom: 10px;
+  margin-bottom: 80px;
 }
 
 .fundo .linha {
@@ -128,7 +128,7 @@ body {
 
 .fundo .imagem img {
   max-width: 420px;
-  margin-top: 31px;
+  margin-top: 32px;
 }
 
 .fundo .texto {
@@ -151,3 +151,28 @@ body {
 }
 
 /* Estilos da secao 3 */
+
+.secao-3 h2 {
+  text-align: center;
+   font-family: 'IBM Plex Mono', monospace;
+   font-size: 35px;
+   text-transform: uppercase;
+   margin-bottom: 50px;
+   color: #3a4a92;
+}
+
+.lista-servicos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding: 0px;
+}
+
+.lista-servicos li {
+  background: #f2f2f2;
+  padding: 40px 20px;
+  font-weight: bold;
+  width: 280px;
+  border-radius: 10px;
+}
