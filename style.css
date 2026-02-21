@@ -74,6 +74,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     gap: 6rem;
 
     padding: 0rem 2rem;
@@ -88,6 +89,34 @@ main {
     gap: 1rem;
 }
 
+.destaque {
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.marrom {
+    color: #A45A49;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+hr {
+    border-color: #A45A49;
+}
+
+.hero-subtitulo {
+    color: #c7BAB3;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
 .hero-imagens-container {
     max-width: 45%;
     column-count: 4;
@@ -98,4 +127,19 @@ main {
 .hero-imagens-container > figure > img {
     width: 100%;
     border-radius: 0.5rem;
+}
+
+.botao-container {
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate("0, -50%");
+}
+
+button {
+    border: none;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+
+    background-color: #A45A49;
 }
